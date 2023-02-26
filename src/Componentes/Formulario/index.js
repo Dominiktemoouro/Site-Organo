@@ -63,7 +63,7 @@ import { useState } from 'react'
 
                 <CampoTexto obrigatorio = {true} 
                 label="Imagem" 
-                placeholder="Digite o endereço da imagem"
+                placeholder="https://github.com/usuario.png"
                 valor={imagem}
                 aoAlterado={valor => setImagem(valor)} />
 
