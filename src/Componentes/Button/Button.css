@@ -1,0 +1,22 @@
+/*border-radius arrendonda a borda*/
+/*font-weight aumenta a largura, dando efeito de negrito*/
+/*font-size aumenta a forma da letra*/
+/*padding aumenta a o tamanho do botao*/
+/*border e para borda*/
+/*cursor serve para quando colocar o mouse em cima do botao, deixar de ser seta e virar a maozinha*/
+.botao {
+background-color: #6278f7;
+border-radius: 10px;
+font-weight: 700;
+font-size: 18px;
+padding: 32px;
+border: none;
+cursor: pointer;
+color: #fff;
+margin: 32px 0;
+
+}
+/*className:hover e utilizado junto ao color para dar o efeito de mudança de cor ao passar o mouse em cima do botao*/
+.botao:hover {
+    color: #95ffd4
+}

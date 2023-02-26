@@ -1,0 +1,27 @@
+ .campo-texto {
+     margin: 24px 0;
+
+ }
+ .campo-texto label {
+     display: block;
+     margin-bottom: 8px;
+     font-size: 24px
+ }  
+ 
+ .campo-texto input{
+     background-color: #fff ;
+     /*box-shadow serve para dar sombra ao campo*/
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+     /*e utilizado para pegar 100% da tela*/
+     width: 100%;
+     /*expecificação da borda*/
+     border: none;
+     /*aumenta o tamanho da fonte*/
+     font-size: 24px;
+     /*aumenta a largura do campo*/
+     padding: 24px;
+     /*ele pega a aba inteira, tirando o campo de rolamento da pagina*/
+     box-sizing: border-box;
+
+
+ }

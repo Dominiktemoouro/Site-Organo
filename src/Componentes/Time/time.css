@@ -1,0 +1,23 @@
+.time{
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3{
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+        padding-bottom: 8px;
+
+}
+/*display alinha as imagens retas*/
+/*justify-content: denifine o espaçamento entre os itens*/
+/*margyn-top define a margem de cima*/
+/*flex-wrap: wrap serve para caso os itens nao couberem na mesma linha, ele  joga pra baixo*/
+.time .colaboradoresCard{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
+}

@@ -1,0 +1,19 @@
+.Formulario{
+    /*Flex coloca o texto mais pra baixo*/
+    display: flex;
+    /*Centraliza no meio*/
+    justify-content: center;
+     /*da espaçamento*/
+    margin: 80px 0;
+}
+.Formulario form{
+    /*limita o espaço para usar somente 80% da capacidade total*/
+    max-width: 80%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    /*padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 36px 64px;
+    /*box-shadow coloca sombra para dar efeito de flutuante*/
+         /*tamanhoDaBorda>Cor>Tonalidade>Opacidade*/
+    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08)
+}
